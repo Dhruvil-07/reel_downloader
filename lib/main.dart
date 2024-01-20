@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:reel_downloader/download.dart';
 
 void main()
 {
@@ -12,7 +13,7 @@ class reel_downloader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Container(),
+      home: download(),
       debugShowCheckedModeBanner: false,
     );
   }
